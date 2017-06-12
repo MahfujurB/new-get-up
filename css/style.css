@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+    font-family: sans-serif;
 }
 .wraper{
 	width: 1170px;
@@ -68,8 +69,8 @@ img{
 }
 .cart-text{
 	position: absolute;
-    top: 13px;
-    right: 455px;
+    top: 10px;
+    right: 446px;
     width: 15px;
     height: 15px;
     background-color: red;
@@ -166,7 +167,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: -25px;
+    top: 365px;
     left: 360px;
 }
 .battun a{
@@ -177,31 +178,185 @@ img{
     width: 100%;
     height: 260px;
 }
-.offer-all{
-
+.offer-m{
+    width: 40%;
+    height: 200px;
+    background-image: url(../img/01_HOME-Recovered.jpg);
+    float: left;
+    margin-left: 75px;
+    margin-top: 30px;
 }
 .offer-img1{
-    position: relative;
-    width: 40%;
-    height: 220px;
-    padding: 35px 0px 0px 55px;
+    width: 30%;
+    height: 100px;
 }
-.offer-img2{
-    position: absolute;
-    bottom: -320px;
-    left: 322px;
+.offer-img1 img{
+    margin: 80px 0px 0px 260px;
 }
 .offer-text{
-    position: absolute;
-    bottom: -257px;
-    left: 160px;
-    color: white;
+    margin: -30px 0px 0px 20px;
 }
 .offer-text h5{
+    color: white;
     font-size: 20px;
     line-height: 0px;
 }
 .offer-text p{
-    font-size: 13px;
+    color: white;
+    font-size: 15px;
     line-height: 0px;
+}
+.popular-prodact-m{
+    width: 100%;
+    height: 415px;
+}
+.popular-img{
+    width: 18%;
+    height: 337px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 31px;
+    transition: all 0.05s;
+    position: relative;
+    margin-top: 20px;
+}
+.popular-img img{
+    width: 75%;
+    height: 215px;
+    padding: 15px 0px 0px 25px;
+}
+.popular-img h5{
+    text-align: center;
+    color: #747474;
+    line-height: 0;
+}
+.popular-img p{
+    text-align: center;
+    color: #5ab210;
+    line-height: 0;
+}
+.popular-img:hover{
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.14);
+    transform: scale(1.05);
+}
+.p-icon{
+    position: absolute;
+    display: none;
+}
+.p-icon a{
+    float: left;
+    color: white;
+}
+.fa-cart-plus{
+    background-color: #5ab210;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 5px;
+    display: none;
+}
+.fa-gratipay{
+    background-color: #5ab210;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 5px;
+    display: none;
+}
+.fa-recycle{
+    background-color: #5ab210;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 5px;
+    display: none;
+}
+.popular-img:hover .p-icon{
+    display: block;
+}
+.contain-m{
+    width: 100%;
+    height: 124px;
+    background-color: #ececec;
+}
+.contain1{
+    width: 18%;
+    height: 78px;
+    padding: 45px 0px 0px 64px;
+    float: left;
+}
+.fa-icon{
+    float: left;
+    width: 50px;
+    height: 44px;
+    border: 1px solid #5ab210;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.fa-american-sign-language-interpreting{
+    margin: 13px 0px 0px 14px;
+    color: #5ab210;
+}
+.fa-car{
+      margin: 13px 0px 0px 14px;
+    color: #5ab210;
+}
+.fa-shield{
+      margin: 13px 0px 0px 14px;
+    color: #5ab210;
+}
+.fa-life-ring{
+      margin: 13px 0px 0px 14px;
+    color: #5ab210;
+}
+.contain1 h5{
+    color: #777777;
+    margin: 0;
+}
+.contain1 p{
+    color: #777777;
+    font-size: 12px;
+    line-height: 0;
+}
+.sale{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #5ab210;
+    border-radius: 25px;
+    top: 0;
+}
+.sale p{
+    color: white;
+}
+.backgaround-m{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/01_HOME13.jpg);
+    position: relative;
+}
+.backgaround img{
+    width: 10%;
+    height: auto;
+    margin: 10px 0px 0px 60px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.backgaround img:hover{
+    transform: scale(1.05);
+}
+.backgaround-m:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
