@@ -451,3 +451,36 @@ img{
 .sub-box p{
     margin: 6px 0px 0px 10px;
 }
+.footer-m{
+    width: 100%;
+    height: 250px;
+    background-color: #404040;
+}
+.about{
+    width: 31%;
+    height: 220px;
+    float: left;
+}
+.information{
+    width: 31%;
+    height: 220px;
+    float: left;
+}
+.contact{
+    width: 31%;
+    height: 220px;
+    float: left;
+}
+.about h3,.information h3,.contact h3{
+    color: #8e8e8e;
+}
+.about p,.contact p{
+    color: #9f9f9f;
+}
+.about,.information,.contact{
+    padding: 25px 0px 0px 27px;
+}
+.information{
+    list-style: none;
+    color: #8e8e8e;
+}
